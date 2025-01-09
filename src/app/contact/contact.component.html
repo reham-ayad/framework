@@ -1,0 +1,30 @@
+<body class="text-center text-dark ">
+    <h1 class="mt-5 fw-bold">CONTACT SECTION</h1>
+    <div class="line mb-5 text-dark m-auto w-25 h-100 d-flex pb-3">
+        <div class="w-50  text-dark bg-dark mt-3  lin"></div>
+        <i class="fa-solid fa-star ms-3 me-3 mt-2 text-dark "></i>
+        <div class="w-50  text-dark  mt-3 bg-dark lin"></div> 
+    </div>
+   <div class="container text-center  bb ">
+    <!-- <p class="text-success d-none "[class.d-block]="username.length>0">UserName</p> -->
+<div class="container w-50 text-start">
+    <p class="d-block text-success" [class.d-none]="username.length==0">{{UserName}}</p>
+    <input class="col-md-5 w-100 shadow-lg p-2 rounded border-0 mb-4 " [(ngModel)]="username" type="text" placeholder="UserName"> <br>
+    <p class="d-block text-success" [class.d-none]="userage.length==0">{{UserAge}}</p>
+
+    <input class="col-md-5 w-100  shadow-lg p-2  rounded  border-0 mb-4 "  [(ngModel)]="userage"  type="text"  name="" id="" placeholder="UserAge"> <br>
+    <p class="d-block text-success" [class.d-none]="useremail.length==0">{{UserEmail}}</p>
+
+    <input class="col-md-5 w-100  shadow-lg p-2  rounded  border-0 mb-4 "  [(ngModel)]="useremail"  type="email" name="" id="" placeholder="UserEmail"> <br>
+    <p class="d-block text-success" [class.d-none]="userpassword.length==0">{{UserPassword}}</p>
+
+    <input class="col-md-5 w-100  shadow-lg p-2  rounded  border-0 mb-4 "  [(ngModel)]="userpassword"  type="password" name="" id="" placeholder="UserPassword"> <br>
+
+
+      <button class="btn btn-success   " type="submit">send Massage</button>
+</div>
+   </div>
+
+
+    
+</body>

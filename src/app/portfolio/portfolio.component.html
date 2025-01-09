@@ -1,0 +1,59 @@
+<body class="text-center" >
+    <div class="dis  w-100 position-fixed top-25 bottom-25 start-0 end-0  w-100" (mousedown)="img=''" [class.z-3]="img!=''">
+        <img class="w-50 rounded" [src]="img" alt="">
+        
+    </div>
+    <div class="all " [class.z-0]="img!=''">
+        <h1 class="mt-5 fw-bold">PORTFOLIO COMPONENT</h1>
+    <div class="line mb-5 text-dark m-auto w-25 h-100 d-flex pb-3">
+        <div class="w-50  text-dark bg-dark mt-3  lin"></div>
+        <i class="fa-solid fa-star ms-3 me-3 mt-2 text-dark "></i>
+        <div class="w-50  text-dark  mt-3 bg-dark lin"></div> 
+    </div> 
+    <div class="container mb-4">
+        <div class="row">
+            <div class="div  rounded  position-relative col-md-4">
+                <img class="w-100 rounded  " [src]="port1" alt="">
+                <div class="clr text-center rounded position-absolute " (mousedown)="img=port1"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div>
+                </div>
+            </div>
+            <div class="div position-relative col-md-4  ">
+                <img class="w-100 rounded" [src]="port2" alt="">
+                <div class="clr text-center rounded position-absolute" (mousedown)="img=port2"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div></div>
+            </div>
+            <div class="div position-relative col-md-4 ">
+                <img class="w-100 rounded" [src]="port3" alt="">
+                <div class="clr text-center rounded position-absolute" (mousedown)="img=port3"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="div position-relative col-md-4 ">
+                <img class="w-100 rounded" [src]="port1" alt="">
+                <div class="clr text-center rounded position-absolute" (mousedown)="img=port1"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div></div>
+            </div>
+            <div class="div position-relative col-md-4 ">
+                <img class="w-100 rounded" [src]="port2" alt="">
+                <div class="clr text-center rounded position-absolute" (mousedown)="img=port2"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div></div>
+            </div>
+            <div class="div position-relative col-md-4 ">
+                <img class="w-100 rounded" [src]="port3" alt="">
+                <div class="clr text-center rounded position-absolute" (mousedown)="img=port3"><div class="icon">
+                    <i class="fa-solid fa-plus "></i>
+                </div></div>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+</body>

@@ -1,0 +1,32 @@
+.lin{
+    height: 2px;}
+    .clr {
+        margin-right: 12px;
+        margin-left: 12px;
+background:rgba(0, 128, 0, 0);
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+transition: .5s;
+
+    }
+   .icon{
+    margin-top: 20px;
+    font-size: 150px;
+    color: rgba(198, 193, 193, 0);
+    transition: .5s;
+
+   }
+   /* color: rgba(198, 193, 193, 0.852); */
+   .clr:hover{
+    background-color: rgba(1, 91, 1, 0.674);
+    
+    
+   }
+   .clr .icon:hover{
+    color: rgba(198, 193, 193, 0.852);    
+   }
+   .back{
+    background: rgba(5, 5, 138, 0.414);
+   }
